@@ -42,8 +42,7 @@ The script performs the following tasks:
 
 Install dependencies with:
 
-```bash
-pip install requests matplotlib
+`pip install requests matplotlib`
 
 ## Start
 ```bash
