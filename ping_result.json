@@ -1,0 +1,2303 @@
+[
+  {
+    "ip": "160.242.19.254",
+    "rtt": {
+      "min": 217.0,
+      "max": 295.0,
+      "avg": 248.0
+    },
+    "coordinates": [
+      -8.82488,
+      13.3132
+    ]
+  },
+  {
+    "ip": "41.110.39.130",
+    "rtt": {
+      "min": 189.0,
+      "max": 215.0,
+      "avg": 198.0
+    },
+    "coordinates": [
+      35.3777,
+      7.043
+    ]
+  },
+  {
+    "ip": "213.158.175.240",
+    "rtt": {
+      "min": 192.0,
+      "max": 238.0,
+      "avg": 215.0
+    },
+    "coordinates": [
+      30.0383,
+      31.2102
+    ]
+  },
+  {
+    "ip": "102.214.66.39",
+    "rtt": {
+      "min": 192.0,
+      "max": 217.0,
+      "avg": 205.0
+    },
+    "coordinates": [
+      12.3729,
+      -1.5264
+    ]
+  },
+  {
+    "ip": "102.214.66.19",
+    "rtt": {
+      "min": 237.0,
+      "max": 294.0,
+      "avg": 274.0
+    },
+    "coordinates": [
+      12.3729,
+      -1.5264
+    ]
+  },
+  {
+    "ip": "212.60.92.134",
+    "rtt": {
+      "min": 192.0,
+      "max": 237.0,
+      "avg": 207.0
+    },
+    "coordinates": [
+      13.265,
+      -16.6505
+    ]
+  },
+  {
+    "ip": "105.235.237.2",
+    "rtt": {
+      "min": 242.0,
+      "max": 352.0,
+      "avg": 299.0
+    },
+    "coordinates": [
+      3.75496,
+      8.78213
+    ]
+  },
+  {
+    "ip": "speed.mymanga.pro",
+    "rtt": {
+      "min": 326.0,
+      "max": 414.0,
+      "avg": 362.0
+    },
+    "coordinates": [
+      -1.2841,
+      36.8155
+    ]
+  },
+  {
+    "ip": "speedtestfl.telecom.mu",
+    "rtt": {
+      "min": 325.0,
+      "max": 348.0,
+      "avg": 334.0
+    },
+    "coordinates": [
+      -20.2494,
+      57.4879
+    ]
+  },
+  {
+    "ip": "speedtest.telecom.mu",
+    "rtt": {
+      "min": 352.0,
+      "max": 398.0,
+      "avg": 375.0
+    },
+    "coordinates": [
+      -20.166,
+      57.5025
+    ]
+  },
+  {
+    "ip": "41.226.22.119",
+    "rtt": {
+      "min": 139.0,
+      "max": 143.0,
+      "avg": 141.0
+    },
+    "coordinates": [
+      36.7496,
+      10.2126
+    ]
+  },
+  {
+    "ip": "41.210.185.162",
+    "rtt": {
+      "min": 284.0,
+      "max": 285.0,
+      "avg": 284.0
+    },
+    "coordinates": [
+      0.321,
+      32.5714
+    ]
+  },
+  {
+    "ip": "169.150.238.161",
+    "rtt": {
+      "min": 271.0,
+      "max": 335.0,
+      "avg": 292.0
+    },
+    "coordinates": [
+      -26.2309,
+      28.0583
+    ]
+  },
+  {
+    "ip": "69.48.239.124",
+    "rtt": {
+      "min": 296.0,
+      "max": 340.0,
+      "avg": 318.0
+    },
+    "coordinates": [
+      -26.2309,
+      28.0583
+    ]
+  },
+  {
+    "ip": "86.96.154.106",
+    "rtt": {
+      "min": 238.0,
+      "max": 318.0,
+      "avg": 265.0
+    },
+    "coordinates": [
+      25.0734,
+      55.2979
+    ]
+  },
+  {
+    "ip": "23.249.55.42",
+    "rtt": {
+      "min": 210.0,
+      "max": 293.0,
+      "avg": 238.0
+    },
+    "coordinates": [
+      25.0734,
+      55.2979
+    ]
+  },
+  {
+    "ip": "69.48.238.200",
+    "rtt": {
+      "min": 534.0,
+      "max": 589.0,
+      "avg": 552.0
+    },
+    "coordinates": [
+      25.0734,
+      55.2979
+    ]
+  },
+  {
+    "ip": "84.17.57.129",
+    "rtt": {
+      "min": 462.0,
+      "max": 485.0,
+      "avg": 473.0
+    },
+    "coordinates": [
+      22.3193,
+      114.169
+    ]
+  },
+  {
+    "ip": "23.249.58.14",
+    "rtt": {
+      "min": 215.0,
+      "max": 285.0,
+      "avg": 243.0
+    },
+    "coordinates": [
+      22.3193,
+      114.169
+    ]
+  },
+  {
+    "ip": "speedtest.hkg12.hk.leaseweb.net",
+    "rtt": {
+      "min": 211.0,
+      "max": 257.0,
+      "avg": 231.0
+    },
+    "coordinates": [
+      22.3656,
+      114.119
+    ]
+  },
+  {
+    "ip": "iperf.scbd.net.id",
+    "rtt": {
+      "min": 509.0,
+      "max": 633.0,
+      "avg": 585.0
+    },
+    "coordinates": [
+      -6.2114,
+      106.8446
+    ]
+  },
+  {
+    "ip": "169.150.202.193",
+    "rtt": {
+      "min": 151.0,
+      "max": 241.0,
+      "avg": 181.0
+    },
+    "coordinates": [
+      32.0804,
+      34.7807
+    ]
+  },
+  {
+    "ip": "speed.netfiber.net.il",
+    "rtt": {
+      "min": "None",
+      "max": "None",
+      "avg": "None"
+    },
+    "coordinates": "None"
+  },
+  {
+    "ip": "speed.rimon.net.il",
+    "rtt": {
+      "min": "None",
+      "max": "None",
+      "avg": "None"
+    },
+    "coordinates": "None"
+  },
+  {
+    "ip": "23.249.61.122",
+    "rtt": {
+      "min": 341.0,
+      "max": 433.0,
+      "avg": 390.0
+    },
+    "coordinates": [
+      12.9753,
+      77.591
+    ]
+  },
+  {
+    "ip": "69.48.236.198",
+    "rtt": {
+      "min": 303.0,
+      "max": 341.0,
+      "avg": 320.0
+    },
+    "coordinates": [
+      18.5211,
+      73.8502
+    ]
+  },
+  {
+    "ip": "89.187.160.1",
+    "rtt": {
+      "min": 149.0,
+      "max": 215.0,
+      "avg": 185.0
+    },
+    "coordinates": [
+      35.6893,
+      139.6899
+    ]
+  },
+  {
+    "ip": "23.249.60.154",
+    "rtt": {
+      "min": 165.0,
+      "max": 192.0,
+      "avg": 179.0
+    },
+    "coordinates": [
+      35.6893,
+      139.6899
+    ]
+  },
+  {
+    "ip": "66.35.31.81",
+    "rtt": {
+      "min": 151.0,
+      "max": 216.0,
+      "avg": 186.0
+    },
+    "coordinates": [
+      35.6893,
+      139.6899
+    ]
+  },
+  {
+    "ip": "speedtest.tyo11.jp.leaseweb.net",
+    "rtt": {
+      "min": 158.0,
+      "max": 249.0,
+      "avg": 193.0
+    },
+    "coordinates": [
+      35.6893,
+      139.6899
+    ]
+  },
+  {
+    "ip": "89.187.162.1",
+    "rtt": {
+      "min": 266.0,
+      "max": 365.0,
+      "avg": 317.0
+    },
+    "coordinates": [
+      1.35208,
+      103.82
+    ]
+  },
+  {
+    "ip": "96.45.38.22",
+    "rtt": {
+      "min": 612.0,
+      "max": 1146.0,
+      "avg": 844.0
+    },
+    "coordinates": [
+      1.35208,
+      103.82
+    ]
+  },
+  {
+    "ip": "speedtest.sin1.sg.leaseweb.net",
+    "rtt": {
+      "min": 576.0,
+      "max": 667.0,
+      "avg": 611.0
+    },
+    "coordinates": [
+      1.27998,
+      103.842
+    ]
+  },
+  {
+    "ip": "sgp.proof.ovh.net",
+    "rtt": {
+      "min": 511.0,
+      "max": 562.0,
+      "avg": 532.0
+    },
+    "coordinates": [
+      1.27994,
+      103.849
+    ]
+  },
+  {
+    "ip": "speedtest.singnet.com.sg",
+    "rtt": {
+      "min": 247.0,
+      "max": 293.0,
+      "avg": 270.0
+    },
+    "coordinates": [
+      1.29229,
+      103.808
+    ]
+  },
+  {
+    "ip": "156.146.52.1",
+    "rtt": {
+      "min": 148.0,
+      "max": 190.0,
+      "avg": 168.0
+    },
+    "coordinates": [
+      41.0146,
+      28.9532
+    ]
+  },
+  {
+    "ip": "69.48.237.66",
+    "rtt": {
+      "min": 185.0,
+      "max": 263.0,
+      "avg": 229.0
+    },
+    "coordinates": [
+      41.0146,
+      28.9532
+    ]
+  },
+  {
+    "ip": "speedtest.uztelecom.uz",
+    "rtt": {
+      "min": 224.0,
+      "max": 303.0,
+      "avg": 258.0
+    },
+    "coordinates": [
+      41.3044,
+      69.2346
+    ]
+  },
+  {
+    "ip": "185.180.12.40",
+    "rtt": {
+      "min": 154.0,
+      "max": 210.0,
+      "avg": 187.0
+    },
+    "coordinates": [
+      48.2049,
+      16.3662
+    ]
+  },
+  {
+    "ip": "lg.vie.alwyzon.net",
+    "rtt": {
+      "min": 127.0,
+      "max": 235.0,
+      "avg": 172.0
+    },
+    "coordinates": [
+      48.277,
+      16.4048
+    ]
+  },
+  {
+    "ip": "207.211.214.65",
+    "rtt": {
+      "min": 104.0,
+      "max": 187.0,
+      "avg": 135.0
+    },
+    "coordinates": [
+      50.8534,
+      4.347
+    ]
+  },
+  {
+    "ip": "37.19.203.1",
+    "rtt": {
+      "min": 135.0,
+      "max": 192.0,
+      "avg": 162.0
+    },
+    "coordinates": [
+      42.6826,
+      23.3223
+    ]
+  },
+  {
+    "ip": "t5.cscs.ch",
+    "rtt": {
+      "min": 128.0,
+      "max": 157.0,
+      "avg": 138.0
+    },
+    "coordinates": [
+      47.3823,
+      8.5397
+    ]
+  },
+  {
+    "ip": "89.187.165.1",
+    "rtt": {
+      "min": 124.0,
+      "max": 192.0,
+      "avg": 158.0
+    },
+    "coordinates": [
+      47.3643,
+      8.5437
+    ]
+  },
+  {
+    "ip": "speedtest.init7.net",
+    "rtt": {
+      "min": 117.0,
+      "max": 160.0,
+      "avg": 138.0
+    },
+    "coordinates": [
+      47.2576,
+      8.6119
+    ]
+  },
+  {
+    "ip": "212.60.47.34",
+    "rtt": {
+      "min": 138.0,
+      "max": 188.0,
+      "avg": 162.0
+    },
+    "coordinates": [
+      47.0594,
+      7.4087
+    ]
+  },
+  {
+    "ip": "speedtest.shinternet.ch",
+    "rtt": {
+      "min": 123.0,
+      "max": 127.0,
+      "avg": 124.0
+    },
+    "coordinates": [
+      47.6934,
+      8.6473
+    ]
+  },
+  {
+    "ip": "speedtest.iway.ch",
+    "rtt": {
+      "min": 149.0,
+      "max": 228.0,
+      "avg": 183.0
+    },
+    "coordinates": [
+      47.3934,
+      8.5163
+    ]
+  },
+  {
+    "ip": "185.152.65.113",
+    "rtt": {
+      "min": 136.0,
+      "max": 215.0,
+      "avg": 181.0
+    },
+    "coordinates": [
+      50.0883,
+      14.4124
+    ]
+  },
+  {
+    "ip": "85.163.71.241",
+    "rtt": {
+      "min": 192.0,
+      "max": 239.0,
+      "avg": 215.0
+    },
+    "coordinates": [
+      49.1953,
+      16.6016
+    ]
+  },
+  {
+    "ip": "fra.speedtest.clouvider.net",
+    "rtt": {
+      "min": 118.0,
+      "max": 211.0,
+      "avg": 172.0
+    },
+    "coordinates": [
+      50.0971,
+      8.5952
+    ]
+  },
+  {
+    "ip": "185.102.219.93",
+    "rtt": {
+      "min": 122.0,
+      "max": 192.0,
+      "avg": 155.0
+    },
+    "coordinates": [
+      50.1169,
+      8.6837
+    ]
+  },
+  {
+    "ip": "178.215.228.109",
+    "rtt": {
+      "min": 133.0,
+      "max": 191.0,
+      "avg": 153.0
+    },
+    "coordinates": [
+      50.1049,
+      8.6295
+    ]
+  },
+  {
+    "ip": "96.45.39.38",
+    "rtt": {
+      "min": 163.0,
+      "max": 208.0,
+      "avg": 185.0
+    },
+    "coordinates": [
+      50.1169,
+      8.6837
+    ]
+  },
+  {
+    "ip": "spd-desrv.hostkey.com",
+    "rtt": {
+      "min": 146.0,
+      "max": 201.0,
+      "avg": 181.0
+    },
+    "coordinates": [
+      50.1169,
+      8.6837
+    ]
+  },
+  {
+    "ip": "speedtest.ip-projects.de",
+    "rtt": {
+      "min": 112.0,
+      "max": 212.0,
+      "avg": 171.0
+    },
+    "coordinates": [
+      50.1109,
+      8.68213
+    ]
+  },
+  {
+    "ip": "speedtest.fra1.de.leaseweb.net",
+    "rtt": {
+      "min": 122.0,
+      "max": 149.0,
+      "avg": 132.0
+    },
+    "coordinates": [
+      50.097,
+      8.63004
+    ]
+  },
+  {
+    "ip": "a209.speedtest.wobcom.de",
+    "rtt": {
+      "min": 144.0,
+      "max": 206.0,
+      "avg": 183.0
+    },
+    "coordinates": [
+      52.4041,
+      10.7532
+    ]
+  },
+  {
+    "ip": "a110.speedtest.wobcom.de",
+    "rtt": {
+      "min": 126.0,
+      "max": 142.0,
+      "avg": 132.0
+    },
+    "coordinates": [
+      52.4041,
+      10.7532
+    ]
+  },
+  {
+    "ip": "a208.speedtest.wobcom.de",
+    "rtt": {
+      "min": 144.0,
+      "max": 223.0,
+      "avg": 189.0
+    },
+    "coordinates": [
+      52.4041,
+      10.7532
+    ]
+  },
+  {
+    "ip": "a210.speedtest.wobcom.de",
+    "rtt": {
+      "min": 143.0,
+      "max": 223.0,
+      "avg": 188.0
+    },
+    "coordinates": [
+      52.4041,
+      10.7532
+    ]
+  },
+  {
+    "ip": "a205.speedtest.wobcom.de",
+    "rtt": {
+      "min": 128.0,
+      "max": 202.0,
+      "avg": 158.0
+    },
+    "coordinates": [
+      52.4041,
+      10.7532
+    ]
+  },
+  {
+    "ip": "speedtest.wobcom.de",
+    "rtt": {
+      "min": 123.0,
+      "max": 161.0,
+      "avg": 141.0
+    },
+    "coordinates": [
+      52.4041,
+      10.7532
+    ]
+  },
+  {
+    "ip": "a400.speedtest.wobcom.de",
+    "rtt": {
+      "min": 122.0,
+      "max": 123.0,
+      "avg": 122.0
+    },
+    "coordinates": [
+      52.4041,
+      10.7532
+    ]
+  },
+  {
+    "ip": "speedtest.wtnet.de",
+    "rtt": {
+      "min": 119.0,
+      "max": 197.0,
+      "avg": 163.0
+    },
+    "coordinates": [
+      53.5867,
+      10.0473
+    ]
+  },
+  {
+    "ip": "121.127.45.65",
+    "rtt": {
+      "min": 137.0,
+      "max": 216.0,
+      "avg": 184.0
+    },
+    "coordinates": [
+      55.674,
+      12.5696
+    ]
+  },
+  {
+    "ip": "speed1.fiberby.dk",
+    "rtt": {
+      "min": 144.0,
+      "max": 224.0,
+      "avg": 189.0
+    },
+    "coordinates": [
+      55.6759,
+      12.5655
+    ]
+  },
+  {
+    "ip": "speed2.fiberby.dk",
+    "rtt": {
+      "min": 129.0,
+      "max": 203.0,
+      "avg": 160.0
+    },
+    "coordinates": [
+      56.2639,
+      9.50179
+    ]
+  },
+  {
+    "ip": "speedtest.hiper.dk",
+    "rtt": {
+      "min": 126.0,
+      "max": 201.0,
+      "avg": 157.0
+    },
+    "coordinates": [
+      55.8472,
+      12.4349
+    ]
+  },
+  {
+    "ip": "185.93.3.50",
+    "rtt": {
+      "min": 170.0,
+      "max": 238.0,
+      "avg": 207.0
+    },
+    "coordinates": [
+      40.4153,
+      -3.694
+    ]
+  },
+  {
+    "ip": "148.230.45.213",
+    "rtt": {
+      "min": 135.0,
+      "max": 174.0,
+      "avg": 149.0
+    },
+    "coordinates": [
+      40.4153,
+      -3.694
+    ]
+  },
+  {
+    "ip": "spd-fisrv.hostkey.com",
+    "rtt": {
+      "min": 160.0,
+      "max": 239.0,
+      "avg": 194.0
+    },
+    "coordinates": [
+      60.1719,
+      24.9347
+    ]
+  },
+  {
+    "ip": "138.199.14.66",
+    "rtt": {
+      "min": 114.0,
+      "max": 140.0,
+      "avg": 129.0
+    },
+    "coordinates": [
+      43.2951,
+      5.3861
+    ]
+  },
+  {
+    "ip": "185.93.2.193",
+    "rtt": {
+      "min": 100.0,
+      "max": 182.0,
+      "avg": 147.0
+    },
+    "coordinates": [
+      48.8558,
+      2.3494
+    ]
+  },
+  {
+    "ip": "96.45.42.156",
+    "rtt": {
+      "min": 111.0,
+      "max": 158.0,
+      "avg": 127.0
+    },
+    "coordinates": [
+      48.8558,
+      2.3494
+    ]
+  },
+  {
+    "ip": "96.45.41.167",
+    "rtt": {
+      "min": 136.0,
+      "max": 214.0,
+      "avg": 180.0
+    },
+    "coordinates": [
+      43.6319,
+      7.0043
+    ]
+  },
+  {
+    "ip": "speedtest.milkywan.fr",
+    "rtt": {
+      "min": 117.0,
+      "max": 162.0,
+      "avg": 143.0
+    },
+    "coordinates": [
+      48.8558,
+      2.3494
+    ]
+  },
+  {
+    "ip": "ping-90ms.online.net",
+    "rtt": {
+      "min": 211.0,
+      "max": 294.0,
+      "avg": 246.0
+    },
+    "coordinates": [
+      48.8558,
+      2.3494
+    ]
+  },
+  {
+    "ip": "ping6-90ms.online.net",
+    "rtt": {
+      "min": "None",
+      "max": "None",
+      "avg": "None"
+    },
+    "coordinates": "None"
+  },
+  {
+    "ip": "iperf.online.net",
+    "rtt": {
+      "min": 154.0,
+      "max": 199.0,
+      "avg": 176.0
+    },
+    "coordinates": [
+      48.8558,
+      2.3494
+    ]
+  },
+  {
+    "ip": "ping6.online.net",
+    "rtt": {
+      "min": "None",
+      "max": "None",
+      "avg": "None"
+    },
+    "coordinates": "None"
+  },
+  {
+    "ip": "scaleway.testdebit.info",
+    "rtt": {
+      "min": 108.0,
+      "max": 145.0,
+      "avg": 120.0
+    },
+    "coordinates": [
+      48.8558,
+      2.3494
+    ]
+  },
+  {
+    "ip": "ping.online.net",
+    "rtt": {
+      "min": 127.0,
+      "max": 208.0,
+      "avg": 156.0
+    },
+    "coordinates": [
+      48.8558,
+      2.3494
+    ]
+  },
+  {
+    "ip": "iperf3.moji.fr",
+    "rtt": {
+      "min": 100.0,
+      "max": 147.0,
+      "avg": 123.0
+    },
+    "coordinates": [
+      48.8558,
+      2.3494
+    ]
+  },
+  {
+    "ip": "lon.speedtest.clouvider.net",
+    "rtt": {
+      "min": 109.0,
+      "max": 157.0,
+      "avg": 132.0
+    },
+    "coordinates": [
+      51.5064,
+      -0.02
+    ]
+  },
+  {
+    "ip": "185.59.221.51",
+    "rtt": {
+      "min": 128.0,
+      "max": 238.0,
+      "avg": 186.0
+    },
+    "coordinates": [
+      51.5081,
+      -0.1278
+    ]
+  },
+  {
+    "ip": "96.45.40.45",
+    "rtt": {
+      "min": 103.0,
+      "max": 137.0,
+      "avg": 117.0
+    },
+    "coordinates": [
+      51.5164,
+      -0.093
+    ]
+  },
+  {
+    "ip": "speedtest.lon1.uk.leaseweb.net",
+    "rtt": {
+      "min": 102.0,
+      "max": 185.0,
+      "avg": 130.0
+    },
+    "coordinates": [
+      51.5081,
+      -0.1278
+    ]
+  },
+  {
+    "ip": "speedtest.lon12.uk.leaseweb.net",
+    "rtt": {
+      "min": 102.0,
+      "max": 110.0,
+      "avg": 105.0
+    },
+    "coordinates": [
+      51.5182,
+      -0.0905412
+    ]
+  },
+  {
+    "ip": "speedtest2.lightningfibre.net.uk",
+    "rtt": {
+      "min": 101.0,
+      "max": 103.0,
+      "avg": 102.0
+    },
+    "coordinates": [
+      50.7707,
+      0.281895
+    ]
+  },
+  {
+    "ip": "iperf.as42831.net",
+    "rtt": {
+      "min": 100.0,
+      "max": 131.0,
+      "avg": 110.0
+    },
+    "coordinates": [
+      51.5081,
+      -0.1278
+    ]
+  },
+  {
+    "ip": "169.150.252.2",
+    "rtt": {
+      "min": 163.0,
+      "max": 237.0,
+      "avg": 197.0
+    },
+    "coordinates": [
+      37.9842,
+      23.7353
+    ]
+  },
+  {
+    "ip": "169.150.242.129",
+    "rtt": {
+      "min": 142.0,
+      "max": 188.0,
+      "avg": 165.0
+    },
+    "coordinates": [
+      45.8293,
+      15.9793
+    ]
+  },
+  {
+    "ip": "87.249.137.8",
+    "rtt": {
+      "min": 108.0,
+      "max": 170.0,
+      "avg": 131.0
+    },
+    "coordinates": [
+      53.3382,
+      -6.2591
+    ]
+  },
+  {
+    "ip": "spd-icsrv.hostkey.com",
+    "rtt": {
+      "min": 128.0,
+      "max": 170.0,
+      "avg": 142.0
+    },
+    "coordinates": [
+      64.1336,
+      -21.8934
+    ]
+  },
+  {
+    "ip": "it1.speedtest.aruba.it",
+    "rtt": {
+      "min": 144.0,
+      "max": 224.0,
+      "avg": 189.0
+    },
+    "coordinates": [
+      43.4631,
+      11.8783
+    ]
+  },
+  {
+    "ip": "217.61.40.96",
+    "rtt": {
+      "min": 126.0,
+      "max": 132.0,
+      "avg": 128.0
+    },
+    "coordinates": [
+      45.7059,
+      9.5872
+    ]
+  },
+  {
+    "ip": "84.17.59.129",
+    "rtt": {
+      "min": 134.0,
+      "max": 214.0,
+      "avg": 163.0
+    },
+    "coordinates": [
+      45.4722,
+      9.1922
+    ]
+  },
+  {
+    "ip": "speedtest.lu.buyvm.net",
+    "rtt": {
+      "min": 127.0,
+      "max": 182.0,
+      "avg": 156.0
+    },
+    "coordinates": [
+      49.7866,
+      6.0753
+    ]
+  },
+  {
+    "ip": "ams.speedtest.clouvider.net",
+    "rtt": {
+      "min": 130.0,
+      "max": 210.0,
+      "avg": 175.0
+    },
+    "coordinates": [
+      52.3759,
+      4.8975
+    ]
+  },
+  {
+    "ip": "185.102.218.1",
+    "rtt": {
+      "min": 111.0,
+      "max": 154.0,
+      "avg": 133.0
+    },
+    "coordinates": [
+      52.3759,
+      4.8975
+    ]
+  },
+  {
+    "ip": "iperf-ams-nl.eranium.net",
+    "rtt": {
+      "min": 100.0,
+      "max": 161.0,
+      "avg": 121.0
+    },
+    "coordinates": [
+      52.3676,
+      4.90414
+    ]
+  },
+  {
+    "ip": "speedtest.ams1.nl.leaseweb.net",
+    "rtt": {
+      "min": 110.0,
+      "max": 174.0,
+      "avg": 150.0
+    },
+    "coordinates": [
+      52.3907,
+      4.66555
+    ]
+  },
+  {
+    "ip": "speedtest.ams2.nl.leaseweb.net",
+    "rtt": {
+      "min": 109.0,
+      "max": 189.0,
+      "avg": 138.0
+    },
+    "coordinates": [
+      52.3676,
+      4.90414
+    ]
+  },
+  {
+    "ip": "speedtest.nl1.mirhosting.net",
+    "rtt": {
+      "min": 104.0,
+      "max": 206.0,
+      "avg": 141.0
+    },
+    "coordinates": [
+      52.5378,
+      5.6966
+    ]
+  },
+  {
+    "ip": "speedtest.netone.nl",
+    "rtt": {
+      "min": 106.0,
+      "max": 107.0,
+      "avg": 106.0
+    },
+    "coordinates": [
+      52.3759,
+      4.8975
+    ]
+  },
+  {
+    "ip": "speedtest.ams1.novogara.net",
+    "rtt": {
+      "min": 113.0,
+      "max": 184.0,
+      "avg": 153.0
+    },
+    "coordinates": [
+      52.3759,
+      4.8975
+    ]
+  },
+  {
+    "ip": "ping-ams1.online.net",
+    "rtt": {
+      "min": 114.0,
+      "max": 210.0,
+      "avg": 151.0
+    },
+    "coordinates": [
+      52.3803,
+      4.6422
+    ]
+  },
+  {
+    "ip": "lg.ams-nl.terrahost.com",
+    "rtt": {
+      "min": 129.0,
+      "max": 209.0,
+      "avg": 163.0
+    },
+    "coordinates": [
+      52.352,
+      4.9392
+    ]
+  },
+  {
+    "ip": "a204.speedtest.wobcom.de",
+    "rtt": {
+      "min": 185.0,
+      "max": 216.0,
+      "avg": 198.0
+    },
+    "coordinates": [
+      52.4041,
+      10.7532
+    ]
+  },
+  {
+    "ip": "lg.gigahost.no",
+    "rtt": {
+      "min": 160.0,
+      "max": 212.0,
+      "avg": 185.0
+    },
+    "coordinates": [
+      59.1728,
+      10.2221
+    ]
+  },
+  {
+    "ip": "lg.terrahost.com",
+    "rtt": {
+      "min": 153.0,
+      "max": 199.0,
+      "avg": 176.0
+    },
+    "coordinates": [
+      59.1728,
+      10.2221
+    ]
+  },
+  {
+    "ip": "185.246.208.67",
+    "rtt": {
+      "min": 192.0,
+      "max": 237.0,
+      "avg": 214.0
+    },
+    "coordinates": [
+      52.2299,
+      21.0093
+    ]
+  },
+  {
+    "ip": "109.61.94.65",
+    "rtt": {
+      "min": 161.0,
+      "max": 241.0,
+      "avg": 195.0
+    },
+    "coordinates": [
+      38.729,
+      -9.1551
+    ]
+  },
+  {
+    "ip": "lisboa.speedtest.net.zon.pt",
+    "rtt": {
+      "min": 141.0,
+      "max": 211.0,
+      "avg": 180.0
+    },
+    "coordinates": [
+      38.729,
+      -9.1551
+    ]
+  },
+  {
+    "ip": "porto.speedtest.net.zon.pt",
+    "rtt": {
+      "min": 154.0,
+      "max": 224.0,
+      "avg": 190.0
+    },
+    "coordinates": [
+      41.1459,
+      -8.6169
+    ]
+  },
+  {
+    "ip": "185.102.217.170",
+    "rtt": {
+      "min": 140.0,
+      "max": 237.0,
+      "avg": 178.0
+    },
+    "coordinates": [
+      44.4291,
+      26.1006
+    ]
+  },
+  {
+    "ip": "speedtest1.sox.rs",
+    "rtt": {
+      "min": 154.0,
+      "max": 231.0,
+      "avg": 185.0
+    },
+    "coordinates": [
+      44.8125,
+      20.4612
+    ]
+  },
+  {
+    "ip": "185.76.9.135",
+    "rtt": {
+      "min": 128.0,
+      "max": 192.0,
+      "avg": 158.0
+    },
+    "coordinates": [
+      59.3287,
+      18.0717
+    ]
+  },
+  {
+    "ip": "speedtest.kamel.network",
+    "rtt": {
+      "min": 123.0,
+      "max": 152.0,
+      "avg": 132.0
+    },
+    "coordinates": [
+      59.2387,
+      18.2266
+    ]
+  },
+  {
+    "ip": "speedtest.keff.org",
+    "rtt": {
+      "min": 188.0,
+      "max": 233.0,
+      "avg": 210.0
+    },
+    "coordinates": [
+      59.3287,
+      18.0717
+    ]
+  },
+  {
+    "ip": "156.146.40.65",
+    "rtt": {
+      "min": 190.0,
+      "max": 215.0,
+      "avg": 199.0
+    },
+    "coordinates": [
+      48.1504,
+      17.1081
+    ]
+  },
+  {
+    "ip": "37.19.218.65",
+    "rtt": {
+      "min": 186.0,
+      "max": 260.0,
+      "avg": 229.0
+    },
+    "coordinates": [
+      50.458,
+      30.5303
+    ]
+  },
+  {
+    "ip": "138.199.4.1",
+    "rtt": {
+      "min": 192.0,
+      "max": 238.0,
+      "avg": 215.0
+    },
+    "coordinates": [
+      -23.5475,
+      -46.6361
+    ]
+  },
+  {
+    "ip": "148.230.60.200",
+    "rtt": {
+      "min": 193.0,
+      "max": 216.0,
+      "avg": 202.0
+    },
+    "coordinates": [
+      -23.5475,
+      -46.6361
+    ]
+  },
+  {
+    "ip": "speedtest.sao1.edgoo.net",
+    "rtt": {
+      "min": 159.0,
+      "max": 233.0,
+      "avg": 193.0
+    },
+    "coordinates": [
+      -23.5475,
+      -46.6361
+    ]
+  },
+  {
+    "ip": "79.127.209.1",
+    "rtt": {
+      "min": 185.0,
+      "max": 215.0,
+      "avg": 202.0
+    },
+    "coordinates": [
+      -33.4521,
+      -70.6536
+    ]
+  },
+  {
+    "ip": "170.254.229.178",
+    "rtt": {
+      "min": 91.0,
+      "max": 129.0,
+      "avg": 105.0
+    },
+    "coordinates": [
+      4.7524,
+      -75.9089
+    ]
+  },
+  {
+    "ip": "169.150.228.129",
+    "rtt": {
+      "min": 137.0,
+      "max": 216.0,
+      "avg": 182.0
+    },
+    "coordinates": [
+      4.6047,
+      -74.0855
+    ]
+  },
+  {
+    "ip": "152.204.128.194",
+    "rtt": {
+      "min": 134.0,
+      "max": 214.0,
+      "avg": 179.0
+    },
+    "coordinates": [
+      4.6306,
+      -74.1274
+    ]
+  },
+  {
+    "ip": "156.146.53.53",
+    "rtt": {
+      "min": 57.0,
+      "max": 100.0,
+      "avg": 78.0
+    },
+    "coordinates": [
+      37.3388,
+      -121.8916
+    ]
+  },
+  {
+    "ip": "speedtest.masnet.ec",
+    "rtt": {
+      "min": 111.0,
+      "max": 159.0,
+      "avg": 127.0
+    },
+    "coordinates": [
+      -1.2043,
+      -80.3717
+    ]
+  },
+  {
+    "ip": "speedtest1.flowjamaica.com",
+    "rtt": {
+      "min": 58.0,
+      "max": 122.0,
+      "avg": 80.0
+    },
+    "coordinates": [
+      18.0028,
+      -76.7897
+    ]
+  },
+  {
+    "ip": "121.127.43.65",
+    "rtt": {
+      "min": 62.0,
+      "max": 126.0,
+      "avg": 94.0
+    },
+    "coordinates": [
+      31.746,
+      -106.439
+    ]
+  },
+  {
+    "ip": "speedtest1.cwpanama.net",
+    "rtt": {
+      "min": 97.0,
+      "max": 176.0,
+      "avg": 131.0
+    },
+    "coordinates": [
+      8.9948,
+      -79.523
+    ]
+  },
+  {
+    "ip": "speedtest6.cwpanama.net",
+    "rtt": {
+      "min": 77.0,
+      "max": 145.0,
+      "avg": 107.0
+    },
+    "coordinates": [
+      8.9948,
+      -79.523
+    ]
+  },
+  {
+    "ip": "138.199.57.129",
+    "rtt": {
+      "min": 52.0,
+      "max": 53.0,
+      "avg": 52.0
+    },
+    "coordinates": [
+      43.709,
+      -79.4057
+    ]
+  },
+  {
+    "ip": "173.243.131.29",
+    "rtt": {
+      "min": 33.0,
+      "max": 35.0,
+      "avg": 34.0
+    },
+    "coordinates": [
+      45.3316,
+      -75.6718
+    ]
+  },
+  {
+    "ip": "96.45.43.6",
+    "rtt": {
+      "min": 24.0,
+      "max": 54.0,
+      "avg": 34.0
+    },
+    "coordinates": [
+      43.709,
+      -79.4057
+    ]
+  },
+  {
+    "ip": "66.35.30.9",
+    "rtt": {
+      "min": 55.0,
+      "max": 119.0,
+      "avg": 88.0
+    },
+    "coordinates": [
+      49.2476,
+      -123.1234
+    ]
+  },
+  {
+    "ip": "speedtest.mtl2.ca.leaseweb.net",
+    "rtt": {
+      "min": 58.0,
+      "max": 906.0,
+      "avg": 345.0
+    },
+    "coordinates": [
+      45.5019,
+      -73.5674
+    ]
+  },
+  {
+    "ip": "yyc-speedtest.xplore.ca",
+    "rtt": {
+      "min": 85.0,
+      "max": 131.0,
+      "avg": 108.0
+    },
+    "coordinates": [
+      51.053,
+      -114.1361
+    ]
+  },
+  {
+    "ip": "speed.couch.ca",
+    "rtt": {
+      "min": "None",
+      "max": "None",
+      "avg": "None"
+    },
+    "coordinates": "None"
+  },
+  {
+    "ip": "as21723.goco.ca",
+    "rtt": {
+      "min": 52.0,
+      "max": 121.0,
+      "avg": 90.0
+    },
+    "coordinates": [
+      45.5004,
+      -73.6565
+    ]
+  },
+  {
+    "ip": "speedtest.awbb.net",
+    "rtt": {
+      "min": 84.0,
+      "max": 129.0,
+      "avg": 106.0
+    },
+    "coordinates": [
+      35.0763,
+      -101.8349
+    ]
+  },
+  {
+    "ip": "ash.speedtest.clouvider.net",
+    "rtt": {
+      "min": 71.0,
+      "max": 112.0,
+      "avg": 88.0
+    },
+    "coordinates": [
+      39.018,
+      -77.539
+    ]
+  },
+  {
+    "ip": "atl.speedtest.clouvider.net",
+    "rtt": {
+      "min": 22.0,
+      "max": 73.0,
+      "avg": 39.0
+    },
+    "coordinates": [
+      33.7485,
+      -84.3871
+    ]
+  },
+  {
+    "ip": "dal.speedtest.clouvider.net",
+    "rtt": {
+      "min": 30.0,
+      "max": 32.0,
+      "avg": 30.0
+    },
+    "coordinates": [
+      32.7908,
+      -96.8336
+    ]
+  },
+  {
+    "ip": "la.speedtest.clouvider.net",
+    "rtt": {
+      "min": 73.0,
+      "max": 84.0,
+      "avg": 77.0
+    },
+    "coordinates": [
+      34.0609,
+      -118.2414
+    ]
+  },
+  {
+    "ip": "nyc.speedtest.clouvider.net",
+    "rtt": {
+      "min": 28.0,
+      "max": 76.0,
+      "avg": 44.0
+    },
+    "coordinates": [
+      40.7157,
+      -74
+    ]
+  },
+  {
+    "ip": "37.19.206.20",
+    "rtt": {
+      "min": 28.0,
+      "max": 66.0,
+      "avg": 45.0
+    },
+    "coordinates": [
+      39.0469,
+      -77.4903
+    ]
+  },
+  {
+    "ip": "185.152.66.67",
+    "rtt": {
+      "min": 47.0,
+      "max": 133.0,
+      "avg": 96.0
+    },
+    "coordinates": [
+      33.7485,
+      -84.3871
+    ]
+  },
+  {
+    "ip": "109.61.86.65",
+    "rtt": {
+      "min": 60.0,
+      "max": 91.0,
+      "avg": 77.0
+    },
+    "coordinates": [
+      42.3574,
+      -71.0618
+    ]
+  },
+  {
+    "ip": "185.93.1.65",
+    "rtt": {
+      "min": 8.0,
+      "max": 12.0,
+      "avg": 10.0
+    },
+    "coordinates": [
+      41.8835,
+      -87.6305
+    ]
+  },
+  {
+    "ip": "89.187.164.1",
+    "rtt": {
+      "min": 90.0,
+      "max": 112.0,
+      "avg": 98.0
+    },
+    "coordinates": [
+      32.7797,
+      -96.8022
+    ]
+  },
+  {
+    "ip": "37.19.216.1",
+    "rtt": {
+      "min": 50.0,
+      "max": 134.0,
+      "avg": 91.0
+    },
+    "coordinates": [
+      29.7539,
+      -95.359
+    ]
+  },
+  {
+    "ip": "185.152.67.2",
+    "rtt": {
+      "min": 89.0,
+      "max": 135.0,
+      "avg": 112.0
+    },
+    "coordinates": [
+      34.0544,
+      -118.244
+    ]
+  },
+  {
+    "ip": "195.181.162.195",
+    "rtt": {
+      "min": 48.0,
+      "max": 136.0,
+      "avg": 78.0
+    },
+    "coordinates": [
+      25.7701,
+      -80.1928
+    ]
+  },
+  {
+    "ip": "185.59.223.8",
+    "rtt": {
+      "min": 90.0,
+      "max": 136.0,
+      "avg": 113.0
+    },
+    "coordinates": [
+      40.7126,
+      -74.0066
+    ]
+  },
+  {
+    "ip": "84.17.41.11",
+    "rtt": {
+      "min": 90.0,
+      "max": 136.0,
+      "avg": 113.0
+    },
+    "coordinates": [
+      47.6109,
+      -122.3303
+    ]
+  },
+  {
+    "ip": "66.35.22.79",
+    "rtt": {
+      "min": 51.0,
+      "max": 126.0,
+      "avg": 86.0
+    },
+    "coordinates": [
+      39.0438,
+      -77.4874
+    ]
+  },
+  {
+    "ip": "66.35.27.207",
+    "rtt": {
+      "min": 34.0,
+      "max": 134.0,
+      "avg": 93.0
+    },
+    "coordinates": [
+      32.7797,
+      -96.8022
+    ]
+  },
+  {
+    "ip": "23.249.54.234",
+    "rtt": {
+      "min": 90.0,
+      "max": 136.0,
+      "avg": 113.0
+    },
+    "coordinates": [
+      25.7701,
+      -80.1928
+    ]
+  },
+  {
+    "ip": "209.40.123.215",
+    "rtt": {
+      "min": 36.0,
+      "max": 37.0,
+      "avg": 36.0
+    },
+    "coordinates": [
+      32.7797,
+      -96.8022
+    ]
+  },
+  {
+    "ip": "66.35.20.123",
+    "rtt": {
+      "min": 88.0,
+      "max": 133.0,
+      "avg": 110.0
+    },
+    "coordinates": [
+      37.3388,
+      -121.8916
+    ]
+  },
+  {
+    "ip": "148.230.59.38",
+    "rtt": {
+      "min": 90.0,
+      "max": 136.0,
+      "avg": 113.0
+    },
+    "coordinates": [
+      37.3387,
+      -121.885
+    ]
+  },
+  {
+    "ip": "spd-uswb.hostkey.com",
+    "rtt": {
+      "min": 58.0,
+      "max": 110.0,
+      "avg": 85.0
+    },
+    "coordinates": [
+      40.7126,
+      -74.0066
+    ]
+  },
+  {
+    "ip": "speedtest120.dal1.tx.hostedbackbone.net",
+    "rtt": {
+      "min": 68.0,
+      "max": 86.0,
+      "avg": 78.0
+    },
+    "coordinates": [
+      32.7908,
+      -96.8336
+    ]
+  },
+  {
+    "ip": "dfw.speedtest.is.cc",
+    "rtt": {
+      "min": 98.0,
+      "max": 145.0,
+      "avg": 121.0
+    },
+    "coordinates": [
+      40.7862,
+      -74.0743
+    ]
+  },
+  {
+    "ip": "speedtest.chi11.us.leaseweb.net",
+    "rtt": {
+      "min": 14.0,
+      "max": 105.0,
+      "avg": 45.0
+    },
+    "coordinates": [
+      41.8732,
+      -88.0002
+    ]
+  },
+  {
+    "ip": "speedtest.dal13.us.leaseweb.net",
+    "rtt": {
+      "min": 64.0,
+      "max": 110.0,
+      "avg": 87.0
+    },
+    "coordinates": [
+      32.7908,
+      -96.8336
+    ]
+  },
+  {
+    "ip": "speedtest.lax12.us.leaseweb.net",
+    "rtt": {
+      "min": 83.0,
+      "max": 162.0,
+      "avg": 128.0
+    },
+    "coordinates": [
+      32.7908,
+      -96.8336
+    ]
+  },
+  {
+    "ip": "speedtest.mia11.us.leaseweb.net",
+    "rtt": {
+      "min": 53.0,
+      "max": 102.0,
+      "avg": 72.0
+    },
+    "coordinates": [
+      25.7701,
+      -80.1928
+    ]
+  },
+  {
+    "ip": "speedtest.nyc1.us.leaseweb.net",
+    "rtt": {
+      "min": 31.0,
+      "max": 42.0,
+      "avg": 35.0
+    },
+    "coordinates": [
+      40.7126,
+      -74.0066
+    ]
+  },
+  {
+    "ip": "speedtest.phx1.us.leaseweb.net",
+    "rtt": {
+      "min": 54.0,
+      "max": 111.0,
+      "avg": 84.0
+    },
+    "coordinates": [
+      33.5111,
+      -111.9075
+    ]
+  },
+  {
+    "ip": "speedtest.sfo12.us.leaseweb.net",
+    "rtt": {
+      "min": 77.0,
+      "max": 131.0,
+      "avg": 98.0
+    },
+    "coordinates": [
+      37.3388,
+      -121.8916
+    ]
+  },
+  {
+    "ip": "speedtest.sea11.us.leaseweb.net",
+    "rtt": {
+      "min": 97.0,
+      "max": 145.0,
+      "avg": 120.0
+    },
+    "coordinates": [
+      47.6109,
+      -122.3303
+    ]
+  },
+  {
+    "ip": "speedtest.wdc2.us.leaseweb.net",
+    "rtt": {
+      "min": 41.0,
+      "max": 128.0,
+      "avg": 91.0
+    },
+    "coordinates": [
+      38.7493,
+      -77.4719
+    ]
+  },
+  {
+    "ip": "speedtest.nocix.net",
+    "rtt": {
+      "min": 42.0,
+      "max": 122.0,
+      "avg": 69.0
+    },
+    "coordinates": [
+      39.1027,
+      -94.5778
+    ]
+  },
+  {
+    "ip": "speedtest15.suddenlink.net",
+    "rtt": {
+      "min": 58.0,
+      "max": 140.0,
+      "avg": 104.0
+    },
+    "coordinates": [
+      38.3467,
+      -81.6359
+    ]
+  },
+  {
+    "ip": "107.1.167.50",
+    "rtt": {
+      "min": 56.0,
+      "max": 92.0,
+      "avg": 68.0
+    },
+    "coordinates": [
+      39.9301,
+      -77.6601
+    ]
+  },
+  {
+    "ip": "speedtest.xmission.com",
+    "rtt": {
+      "min": 68.0,
+      "max": 130.0,
+      "avg": 98.0
+    },
+    "coordinates": [
+      39.321,
+      -111.094
+    ]
+  },
+  {
+    "ip": "speedtest2.comvergence.com.au",
+    "rtt": {
+      "min": 269.0,
+      "max": 314.0,
+      "avg": 291.0
+    },
+    "coordinates": [
+      -37.8232,
+      145.1009
+    ]
+  },
+  {
+    "ip": "143.244.63.144",
+    "rtt": {
+      "min": 196.0,
+      "max": 213.0,
+      "avg": 202.0
+    },
+    "coordinates": [
+      -33.8672,
+      151.1997
+    ]
+  },
+  {
+    "ip": "96.45.44.87",
+    "rtt": {
+      "min": 217.0,
+      "max": 297.0,
+      "avg": 251.0
+    },
+    "coordinates": [
+      -33.8672,
+      151.1997
+    ]
+  },
+  {
+    "ip": "speedtest.syd12.au.leaseweb.net",
+    "rtt": {
+      "min": 205.0,
+      "max": 211.0,
+      "avg": 207.0
+    },
+    "coordinates": [
+      -33.8229,
+      151.1886
+    ]
+  },
+  {
+    "ip": "syd.proof.ovh.net",
+    "rtt": {
+      "min": 212.0,
+      "max": 320.0,
+      "avg": 257.0
+    },
+    "coordinates": [
+      -33.8401,
+      151.209
+    ]
+  },
+  {
+    "ip": "speedtest.lagoon.nc",
+    "rtt": {
+      "min": 305.0,
+      "max": 332.0,
+      "avg": 321.0
+    },
+    "coordinates": [
+      -22.2665,
+      166.4742
+    ]
+  },
+  {
+    "ip": "akl.linetest.nz",
+    "rtt": {
+      "min": 201.0,
+      "max": 247.0,
+      "avg": 224.0
+    },
+    "coordinates": [
+      -37.3657,
+      175.6716
+    ]
+  },
+  {
+    "ip": "chch.linetest.nz",
+    "rtt": {
+      "min": 205.0,
+      "max": 318.0,
+      "avg": 253.0
+    },
+    "coordinates": [
+      -37.3657,
+      175.6716
+    ]
+  },
+  {
+    "ip": "154.81.51.4",
+    "rtt": {
+      "min": 252.0,
+      "max": 298.0,
+      "avg": 275.0
+    },
+    "coordinates": [
+      -31.9514,
+      115.862
+    ]
+  },
+  {
+    "ip": "103.146.200.98",
+    "rtt": {
+      "min": 248.0,
+      "max": 316.0,
+      "avg": 286.0
+    },
+    "coordinates": [
+      -9.43529,
+      147.18
+    ]
+  },
+  {
+    "ip": "195.252.220.230",
+    "rtt": {
+      "min": 6.0,
+      "max": 8.0,
+      "avg": 7.0
+    },
+    "coordinates": [
+      40.3228,
+      -86.8881
+    ]
+  }
+]
