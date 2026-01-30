@@ -44,3 +44,7 @@ Install dependencies with:
 
 ```bash
 pip install requests matplotlib
+
+## Start
+```bash
+python a1_rtt_collect.py
