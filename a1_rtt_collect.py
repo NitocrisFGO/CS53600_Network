@@ -95,9 +95,9 @@ def ping_host(ip, count=3):
     except subprocess.CalledProcessError:
         return None
 
-    min_r = re.search(r"最短 = (\d+)ms", output)
-    max_r = re.search(r"最长 = (\d+)ms", output)
-    avg_r = re.search(r"平均 = (\d+)ms", output)
+    min_r = re.search(r"(?:最短|min(?:imum)?)\s*=\s*(\d+)ms", output, re.IGNORECASE)
+    max_r = re.search(r"(?:最长|max(?:imum)?)\s*=\s*(\d+)ms", output, re.IGNORECASE)
+    avg_r = re.search(r"(?:平均|avg|average)\s*=\s*(\d+)ms", output, re.IGNORECASE)
 
     if not (min_r and avg_r and max_r):
         return None
@@ -207,5 +207,6 @@ with open("ping_result.json", "w", encoding="utf-8") as f:
 
 ips = random.sample(ip_list, 5)
 print(ips)
+
 
 latency_breakdown(ips)
