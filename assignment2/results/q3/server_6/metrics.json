@@ -1,0 +1,19 @@
+{
+  "n_test_points": 223,
+  "features": [
+    "goodput_mbps",
+    "rtt_ms",
+    "loss",
+    "rttvar_ms",
+    "retrans_delta",
+    "cwnd",
+    "goodput_mbps_prev",
+    "rtt_ms_prev",
+    "loss_prev",
+    "delta_cwnd_prev"
+  ],
+  "rmse_cwnd": 24.967925241582513,
+  "mae_cwnd": 22.342051656822484,
+  "rmse_delta": 5.280978617340728,
+  "mae_delta": 3.2147950153962657
+}
