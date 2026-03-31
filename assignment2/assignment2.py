@@ -63,17 +63,32 @@ class TcpInfo(ctypes.Structure):
         ("tcpi_rcv_space", ctypes.c_uint32),
 
         ("tcpi_total_retrans", ctypes.c_uint32),
+
+        ("tcpi_pacing_rate", ctypes.c_uint64),
+        ("tcpi_max_pacing_rate", ctypes.c_uint64),
+        ("tcpi_bytes_acked", ctypes.c_uint64),
+        ("tcpi_bytes_received", ctypes.c_uint64),
+        ("tcpi_segs_out", ctypes.c_uint32),
+        ("tcpi_segs_in", ctypes.c_uint32),
+        ("tcpi_notsent_bytes", ctypes.c_uint32),
+        ("tcpi_min_rtt", ctypes.c_uint32),
+        ("tcpi_data_segs_in", ctypes.c_uint32),
+        ("tcpi_data_segs_out", ctypes.c_uint32),
+        ("tcpi_delivery_rate", ctypes.c_uint64),
+        ("tcpi_busy_time", ctypes.c_uint64),
+        ("tcpi_rwnd_limited", ctypes.c_uint64),
+        ("tcpi_sndbuf_limited", ctypes.c_uint64),
+        ("tcpi_delivered", ctypes.c_uint32),
+        ("tcpi_delivered_ce", ctypes.c_uint32),
+        ("tcpi_bytes_sent", ctypes.c_uint64),
+        ("tcpi_bytes_retrans", ctypes.c_uint64),
     ]
 
 
 def get_tcp_info(sock):
-    buf = sock.getsockopt(socket.IPPROTO_TCP, TCP_INFO, 192)
-    return TcpInfo.from_buffer_copy(buf[:ctypes.sizeof(TcpInfo)])
-
-
-def estimate_bytes_acked(bytes_sent, unacked, mss):
-    inflight = unacked * mss
-    return max(0, bytes_sent - inflight)
+    size = ctypes.sizeof(TcpInfo)
+    buf = sock.getsockopt(socket.IPPROTO_TCP, TCP_INFO, size)
+    return TcpInfo.from_buffer_copy(buf[:size])
 
 
 def make_cookie():
@@ -132,13 +147,10 @@ def run_test(server, duration, interval, debug=False):
 
     test_started = False
 
-    bytes_sent_total = 0
-
     start_time = None
     next_sample = None
 
     last_acked_total = 0
-    window_bytes = 0
 
     last_retrans = 0
 
@@ -196,67 +208,65 @@ def run_test(server, duration, interval, debug=False):
         # TEST START / RUNNING
         # ----------------------------
         elif state in (TEST_START, TEST_RUNNING):
-
             test_started = True
 
             if start_time is None:
-
                 start_time = time.time()
-                next_sample = start_time + interval
+                last_sample_time = start_time
+
+                # 避免 send() 长时间阻塞，卡死采样
+                data_sock.settimeout(0.05)
 
                 info = get_tcp_info(data_sock)
-
-                mss = info.tcpi_snd_mss or 1460
-                unacked = info.tcpi_unacked
-
-                last_acked_total = bytes_sent_total - unacked * mss
-                last_retrans = info.tcpi_total_retrans
+                last_acked_total = int(info.tcpi_bytes_acked)
+                last_retrans = int(info.tcpi_total_retrans)
 
                 if debug:
                     print(f"[dbg] start={start_time:.6f} interval={interval}")
 
             while time.time() - start_time < duration:
-
+                # 尽量持续发送，但不要让 send 长时间阻塞
                 try:
-                    sent = data_sock.send(chunk)
-                    bytes_sent_total += sent
-                except:
+                    data_sock.send(chunk)
+                except socket.timeout:
+                    pass
+                except BlockingIOError:
+                    pass
+                except Exception:
                     break
-
-                info = get_tcp_info(data_sock)
-
-                mss = info.tcpi_snd_mss or 1460
-                unacked = info.tcpi_unacked
-
-                acked_total = bytes_sent_total - unacked * mss
-
-                delta = acked_total - last_acked_total
-                if delta > 0:
-                    window_bytes += delta
-
-                last_acked_total = acked_total
 
                 now = time.time()
 
-                if now >= next_sample:
+                # 到真实采样时刻才记录，不补“历史点”
+                if now - last_sample_time >= interval:
+                    info = get_tcp_info(data_sock)
 
-                    goodput_bps = (window_bytes / interval) * 8.0
+                    acked_total = int(info.tcpi_bytes_acked)
+                    retrans = int(info.tcpi_total_retrans)
 
-                    retrans = info.tcpi_total_retrans
+                    delta_acked = acked_total - last_acked_total
+                    if delta_acked < 0:
+                        delta_acked = 0
+
                     d_retrans = retrans - last_retrans
-                    last_retrans = retrans
+                    if d_retrans < 0:
+                        d_retrans = 0
 
-                    loss_signal = d_retrans / interval
+                    elapsed = now - last_sample_time
+                    if elapsed <= 0:
+                        elapsed = interval
 
-                    t_sec = next_sample - start_time
+                    goodput_bps = (delta_acked / elapsed) * 8.0
+                    loss_signal = d_retrans / elapsed
 
                     sample = {
-                        "t": round(t_sec, 1),
+                        "t": round(now - start_time, 3),
                         "goodput": goodput_bps,
+                        "bytes_acked": acked_total,
                         "cwnd": int(info.tcpi_snd_cwnd),
                         "rtt": info.tcpi_rtt / 1000.0,
                         "rttvar": info.tcpi_rttvar / 1000.0,
-                        "retrans": int(retrans),
+                        "retrans": retrans,
                         "loss": loss_signal,
                     }
 
@@ -265,8 +275,9 @@ def run_test(server, duration, interval, debug=False):
                     if debug:
                         print("sample", sample)
 
-                    window_bytes = 0
-                    next_sample += interval
+                    last_acked_total = acked_total
+                    last_retrans = retrans
+                    last_sample_time = now
 
             ctrl.send(b"\x04")
 
@@ -372,9 +383,6 @@ def write_q1(all_results, outdir):
     plt.close()
 
 def write_q2(samples, outdir):
-    import os, csv
-    import matplotlib.pyplot as plt
-
     os.makedirs(outdir, exist_ok=True)
 
     # ---- 1) write trace.csv ----
@@ -478,15 +486,14 @@ def load_servers(path):
         servers.append((host, port))
     return servers
 
-
 def main():
 
     parser = argparse.ArgumentParser()
 
     parser.add_argument("--servers", default="listed_iperf3_servers.json")
     parser.add_argument("--n", type=int, default=10)
-    parser.add_argument("--duration", type=int, default=45)
-    parser.add_argument("--interval", type=float, default=0.2)
+    parser.add_argument("--duration", type=int, default=60)
+    parser.add_argument("--interval", type=float, default=0.5)
     parser.add_argument("--debug", action="store_true")
 
     args = parser.parse_args()
@@ -520,16 +527,13 @@ def main():
 
 
         if if_sucess:
-            if str(samples[-1]['t']) == f'{args.duration}.0':
-                successes.append(server)
-                timestamp = time.strftime("%Y%m%d_%H%M%S")
-                all_result[f'server{len(successes)}'] = samples
-                write_q2(samples, f"results/q2/{len(successes)}")
-            else:
-                if args.debug:
-                    print(f'{server[0]} not fit t = 10.')
 
-    write_q1(all_result, f"results/q1")
+            successes.append(server)
+            all_result[f'server{len(successes)}'] = samples
+            write_q2(samples, f"results_test/q2/{len(successes)}")
+
+
+    write_q1(all_result, f"results_test/q1")
     print("Done")
 
 
