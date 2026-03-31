@@ -1,0 +1,37 @@
+Congestion Window Update Algorithm (learned + safe-guards)
+
+Features at time t:
+
+  goodput(t), rtt(t), loss(t), rttvar(t), retrans_delta(t), cwnd(t)
+
+  goodput(t-1), rtt(t-1), loss(t-1), delta_cwnd(t-1)
+
+
+Learned linear model for delta_cwnd:
+
+  delta = -3.559559
+        + (0.590349) * goodput_mbps
+        + (-0.226767) * rtt_ms
+        + (0.252218) * loss
+        + (-0.927252) * rttvar_ms
+        + (-0.347184) * retrans_delta
+        + (-0.056783) * cwnd
+        + (-0.313727) * goodput_mbps_prev
+        + (0.445302) * rtt_ms_prev
+        + (-0.063935) * loss_prev
+        + (0.112290) * delta_cwnd_prev
+
+Update rule per sampling interval:
+
+  if loss(t) > 0:
+
+      cwnd <- max(1, 0.5 * cwnd)
+  else:
+
+      cwnd <- max(1, cwnd + clamp(delta, -0.5*cwnd, 0.5*cwnd))
+
+Notes:
+
+- retrans_delta is derived from cumulative retrans counters.
+- loss is used directly as provided by the trace (not differenced).
+- lag features capture temporal dependence in TCP cwnd evolution.

@@ -1,0 +1,32 @@
+{
+  "5": {
+    "trace": "results/q2/5/trace.csv",
+    "out_dir": "results/q3/server_5",
+    "rmse_cwnd": 131.83002602004402,
+    "mae_cwnd": 114.81186000224287
+  },
+  "12": {
+    "trace": "results/q2/12/trace.csv",
+    "out_dir": "results/q3/server_12",
+    "rmse_cwnd": 80.07722051272428,
+    "mae_cwnd": 68.2244579393528
+  },
+  "1": {
+    "trace": "results/q2/1/trace.csv",
+    "out_dir": "results/q3/server_1",
+    "rmse_cwnd": 83.14584479228475,
+    "mae_cwnd": 72.37110297311393
+  },
+  "8": {
+    "trace": "results/q2/8/trace.csv",
+    "out_dir": "results/q3/server_8",
+    "rmse_cwnd": 307.04102071486045,
+    "mae_cwnd": 271.9728219548002
+  },
+  "17": {
+    "trace": "results/q2/17/trace.csv",
+    "out_dir": "results/q3/server_17",
+    "rmse_cwnd": 87.5816119490741,
+    "mae_cwnd": 72.06023470611564
+  }
+}

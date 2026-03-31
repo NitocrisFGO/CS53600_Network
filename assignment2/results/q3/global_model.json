@@ -1,0 +1,32 @@
+{
+  "n_train_points": 2313,
+  "n_train_servers": 20,
+  "features": [
+    "goodput_mbps",
+    "rtt_ms",
+    "loss",
+    "rttvar_ms",
+    "retrans_delta",
+    "cwnd",
+    "goodput_mbps_prev",
+    "rtt_ms_prev",
+    "loss_prev",
+    "delta_cwnd_prev"
+  ],
+  "alpha": 0.02,
+  "beta": 1.0,
+  "ridge_alpha": 1.0,
+  "coef": {
+    "goodput_mbps": 0.5903489577668326,
+    "rtt_ms": -0.22676698732803088,
+    "loss": 0.25221802580097197,
+    "rttvar_ms": -0.9272517729862928,
+    "retrans_delta": -0.3471838334593341,
+    "cwnd": -0.05678324103850922,
+    "goodput_mbps_prev": -0.31372658822475163,
+    "rtt_ms_prev": 0.4453016042645544,
+    "loss_prev": -0.06393495861811323,
+    "delta_cwnd_prev": 0.11229012884479239
+  },
+  "intercept": -3.559558825435923
+}
