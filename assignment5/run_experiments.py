@@ -7,7 +7,17 @@ OUTPUT = "results/final_results.csv"
 if os.path.exists(OUTPUT):
     os.remove(OUTPUT)
 
-message_sizes = [1024, 4096, 16384, 65536, 262144, 1048576]
+message_sizes = [
+    1024,        # 1KB
+    4096,        # 4KB
+    16384,       # 16KB
+    65536,       # 64KB
+    262144,      # 256KB
+    1048576,     # 1MB
+    4194304,     # 4MB
+    16777216,    # 16MB
+    33554432,    # 32MB
+]
 world_sizes = [2, 4, 8]
 
 broadcast_algos = ["binary", "binomial"]
